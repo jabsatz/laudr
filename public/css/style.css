@@ -1,0 +1,297 @@
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script|Fredoka+One);
+/* line 1, ../sass/_main.scss */
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 8, ../sass/_main.scss */
+#main-wrapper {
+  z-index: -1;
+  width: 100%;
+  padding-top: 75px;
+  background: #29033d; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?tl65hn");
+  src: url("../fonts/icomoon.eot?#iefixtl65hn") format("embedded-opentype"), url("../fonts/icomoon.woff?tl65hn") format("woff"), url("../fonts/icomoon.ttf?tl65hn") format("truetype"), url("../fonts/icomoon.svg?tl65hn#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* line 1, ../sass/_typography.scss */
+body {
+  font-size: 16px;
+  font-family: 'Helvetica'; }
+
+/* line 6, ../sass/_typography.scss */
+#top-logo {
+  font-family: "Oleo Script", cursive;
+  font-size: 45px;
+  font-weight: bold;
+  color: #fff; }
+  /* line 12, ../sass/_typography.scss */
+  #top-logo a {
+    color: #fff;
+    text-decoration: none; }
+
+/* line 18, ../sass/_typography.scss */
+#main-menu {
+  font-size: 20px; }
+  /* line 21, ../sass/_typography.scss */
+  #main-menu a {
+    color: #fff;
+    text-decoration: none; }
+
+/* line 27, ../sass/_typography.scss */
+#feed {
+  font-family: sans-serif; }
+
+/* line 2, ../sass/_icon.scss */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 16, ../sass/_icon.scss */
+.icon-home:before {
+  content: "\e902"; }
+
+/* line 20, ../sass/_icon.scss */
+.icon-mic:before {
+  content: "\e91e"; }
+
+/* line 24, ../sass/_icon.scss */
+.icon-user:before {
+  content: "\e971"; }
+
+/* line 28, ../sass/_icon.scss */
+.icon-settings:before {
+  content: "\e994"; }
+
+/* line 32, ../sass/_icon.scss */
+.icon-exit:before {
+  content: "\ea14"; }
+
+/* line 36, ../sass/_icon.scss */
+.icon-play:before {
+  content: "\ea1c"; }
+
+/* line 40, ../sass/_icon.scss */
+.icon-pause:before {
+  content: "\ea1d"; }
+
+/* line 44, ../sass/_icon.scss */
+.icon-stop:before {
+  content: "\ea1e"; }
+
+/* line 48, ../sass/_icon.scss */
+.icon-backward:before {
+  content: "\ea1f"; }
+
+/* line 52, ../sass/_icon.scss */
+.icon-forward:before {
+  content: "\ea20"; }
+
+/* line 56, ../sass/_icon.scss */
+.icon-first:before {
+  content: "\ea21"; }
+
+/* line 60, ../sass/_icon.scss */
+.icon-last:before {
+  content: "\ea22"; }
+
+/* line 64, ../sass/_icon.scss */
+.icon-previous:before {
+  content: "\ea23"; }
+
+/* line 68, ../sass/_icon.scss */
+.icon-next:before {
+  content: "\ea24"; }
+
+/* line 72, ../sass/_icon.scss */
+.icon-volume-high:before {
+  content: "\ea26"; }
+
+/* line 76, ../sass/_icon.scss */
+.icon-volume-medium:before {
+  content: "\ea27"; }
+
+/* line 80, ../sass/_icon.scss */
+.icon-volume-low:before {
+  content: "\ea28"; }
+
+/* line 84, ../sass/_icon.scss */
+.icon-volume-mute:before {
+  content: "\ea29"; }
+
+/* line 88, ../sass/_icon.scss */
+.icon-volume-mute-cross:before {
+  content: "\ea2a"; }
+
+/* line 92, ../sass/_icon.scss */
+.icon-volume-increase:before {
+  content: "\ea2b"; }
+
+/* line 96, ../sass/_icon.scss */
+.icon-volume-decrease:before {
+  content: "\ea2c"; }
+
+/* line 1, ../sass/_nav.scss */
+#main-menu {
+  float: right;
+  height: 65px;
+  margin-top: 10px; }
+  /* line 6, ../sass/_nav.scss */
+  #main-menu a {
+    margin: 0px 15px; }
+    /* line 8, ../sass/_nav.scss */
+    #main-menu a:nth-child(1) {
+      margin-left: 0px; }
+    /* line 11, ../sass/_nav.scss */
+    #main-menu a:nth-child(2) {
+      margin-right: 0px; }
+
+/* line 1, ../sass/_header.scss */
+#top-header {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 15%;
+  max-height: 55px;
+  padding-top: 5px;
+  background: #602580;
+  -moz-box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 10px;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 10px; }
+  /* line 12, ../sass/_header.scss */
+  #top-header .wrapper {
+    display: block;
+    margin: 0px auto;
+    width: 85%; }
+
+/* line 19, ../sass/_header.scss */
+#top-logo {
+  display: inline-block;
+  height: 100%;
+  line-height: 100%; }
+
+/* line 1, ../sass/_feed.scss */
+#feed {
+  display: block;
+  margin: -20px auto;
+  padding: 10px;
+  width: 100%; }
+  /* line 9, ../sass/_feed.scss */
+  #feed .laud {
+    display: block;
+    margin: 25px auto;
+    width: 90%;
+    max-width: 900px;
+    height: 150px;
+    background: #fff;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px; }
+    /* line 18, ../sass/_feed.scss */
+    #feed .laud .fake-img {
+      display: inline-block;
+      width: 150px;
+      height: 150px;
+      background: mediumpurple;
+      -moz-border-radius-topleft: 100px;
+      -webkit-border-top-left-radius: 100px;
+      border-top-left-radius: 100px;
+      -moz-border-radius-bottomleft: 100px;
+      -webkit-border-bottom-left-radius: 100px;
+      border-bottom-left-radius: 100px; }
+    /* line 26, ../sass/_feed.scss */
+    #feed .laud .player-wrap {
+      display: inline-block;
+      vertical-align: top;
+      width: 70%;
+      height: 150px;
+      margin-left: 15px;
+      padding: 5px; }
+      /* line 34, ../sass/_feed.scss */
+      #feed .laud .player-wrap header {
+        display: block;
+        width: 100%; }
+
+/* line 42, ../sass/_feed.scss */
+.player {
+  display: block;
+  width: 100%;
+  margin: 10px 0px; }
+  /* line 47, ../sass/_feed.scss */
+  .player * {
+    display: inline-block; }
+
+/* line 1, ../sass/_new.scss */
+.new-laud {
+  display: block;
+  margin: 25px auto;
+  width: 90%;
+  max-width: 900px;
+  height: 150px;
+  background: #fff;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px; }
+  /* line 10, ../sass/_new.scss */
+  .new-laud .fake-img {
+    display: inline-block;
+    float: left;
+    width: 150px;
+    height: 150px;
+    -moz-border-radius-topleft: 100px;
+    -webkit-border-top-left-radius: 100px;
+    border-top-left-radius: 100px;
+    -moz-border-radius-bottomleft: 100px;
+    -webkit-border-bottom-left-radius: 100px;
+    border-bottom-left-radius: 100px; }
+  /* line 18, ../sass/_new.scss */
+  .new-laud .rec-btn {
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    width: 150px;
+    height: 150px;
+    background: #628;
+    box-shadow: none;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    font-size: 100px;
+    color: white;
+    border: none; }
+  /* line 31, ../sass/_new.scss */
+  .new-laud .rec-btn:hover {
+    background: #517; }
+  /* line 34, ../sass/_new.scss */
+  .new-laud .rec-btn:active {
+    background: #406; }
+  /* line 38, ../sass/_new.scss */
+  .new-laud .new-audio {
+    margin: 15px;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    padding: 5px; }
+    /* line 47, ../sass/_new.scss */
+    .new-laud .new-audio .form-item {
+      margin-bottom: 5px;
+      width: 100%; }

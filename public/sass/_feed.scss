@@ -1,0 +1,50 @@
+#feed{
+  display: block;
+  margin: -20px auto;
+  padding: 10px;
+  width: 100%;
+  //background: #fff;
+  //@include box-shadow(rgba(0,0,0,.7) 0px 0px 10px inset);
+
+  .laud{
+    display: block;
+    margin: 25px auto;
+    width: 90%;
+    max-width: 900px;
+    height: 150px;
+    background: #fff;
+    @include border-radius(100px);
+
+    .fake-img{
+      display: inline-block;
+      width: 150px;
+      height: 150px;
+      background: mediumpurple;
+      @include border-left-radius(100px);
+    }
+
+    .player-wrap{
+      display: inline-block;
+      vertical-align: top;
+      width: 70%;
+      height: 150px;
+      margin-left: 15px;
+      padding: 5px;
+
+      header{
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.player{
+  display: block;
+  width: 100%;
+  margin: 10px 0px;
+
+  *{
+    display: inline-block;
+  }
+}

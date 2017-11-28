@@ -1,0 +1,13 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+  @include box-sizing(border-box);
+}
+
+#main-wrapper{
+  z-index: -1;
+  width: 100%;
+  padding-top: 75px;
+  background: #29033d;
+}

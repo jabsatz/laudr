@@ -1,0 +1,15 @@
+#main-menu{
+  float: right;
+  height: 65px;
+  margin-top: 10px;
+
+  a{
+    margin: 0px 15px;
+    &:nth-child(1){
+      margin-left: 0px;
+    }
+    &:nth-child(2){
+      margin-right: 0px;
+    }
+  }
+}

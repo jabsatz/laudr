@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="laudr">
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Angular JS test</title>
+  <script type="text/javascript" src="js/angular.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+</head>
+<body ng-controller="DashController as dash">
+
+  <header id="top-header">
+    <div class="wrapper">
+      <h1 id="top-logo">
+        <a href="/">Laudr</a>
+      </h1>
+
+      <nav id="main-menu">
+        <a href="/profile">
+          <span class="icon-user"></span>
+          {{ dash.data.user.username }}
+        </a>  
+      <nav>
+    </div>
+  </header>
+  
+  <div id="main-wrapper">
+    <div id="feed">
+      <div class="laud" ng-repeat="laud in dash.data.lauds">
+
+        <img src="{{laud.user.profile_picture}}" class="fake-img">
+
+        <div class="player-wrap">
+          <h1>{{laud.title}}</h1>
+          <h2>{{laud.user.username}}</h2>
+          <audio ng-src="{{laud.sound}}" controls>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+</html>
